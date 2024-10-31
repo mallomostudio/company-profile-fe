@@ -1,0 +1,88 @@
+/* 
+
+TemplateMo - Finance Business
+
+https://templatemo.com/tm-545-finance-business
+
+*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.mynav {
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  background-color: #fff !important;
+}
+
+.mynav .nav-item a {
+  color: #000 !important;
+}
+
+.mynav .nav-item a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: #0d81ce;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+header #mainNav { 
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+}
+
+header #mainNav .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 0 1.5rem 0;
+}
+header #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #FF6138;
+}
+header #mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #FF6138 !important;
+}
+@media (min-width: 992px) {
+  header #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  header #mainNav .navbar-brand:hover {
+    color: #FF6138;
+  }
+  header #mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 0 1.5rem;
+  }
+  header #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #FF6138;
+  }
+  header #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+}
+
+.main-button{
+  color: #fff;
+  background-color: #FF6138;
+  font-size: 1rem;
+}
+
+
+
